@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="4" name="Parallel_Execution_firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="parallel.VisiCheckRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="Report"/>
+          <include name="setUpSuite"/>
+          <include name="config_driver"/>
+          <include name="runScenario"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- parallel.VisiCheckRunner -->
+    </classes>
+  </test> <!-- Parallel_Execution_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

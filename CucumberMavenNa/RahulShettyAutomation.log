@@ -1,0 +1,4 @@
+2022-10-11 12:13:38,039 [INFO ] parallel.AddItemToCart [TestNG-tests-1] Add ItemToCart URL is launched
+2022-10-11 12:13:38,076 [ERROR] parallel.AddItemToCart [TestNG-tests-1] java.io.FileNotFoundException: C:\Users\keerthana.b\Documents\Automation Softwares\LoginCredentials.xlsx
+2022-10-11 12:13:44,208 [INFO ] parallel.AddItemToCart [TestNG-tests-1] Add ItemToCart URL is launched
+2022-10-11 12:13:44,210 [ERROR] parallel.AddItemToCart [TestNG-tests-1] java.io.FileNotFoundException: C:\Users\keerthana.b\Documents\Automation Softwares\LoginCredentials.xlsx

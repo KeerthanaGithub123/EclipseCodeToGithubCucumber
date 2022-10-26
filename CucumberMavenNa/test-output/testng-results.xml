@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24480" started-at="2022-10-20T17:36:33 IST" finished-at="2022-10-20T17:36:58 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.VisiCheckRunner@7bc1a03d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Parallel_Execution_chrome" duration-ms="24480" started-at="2022-10-20T17:36:33 IST" finished-at="2022-10-20T17:36:58 IST">
+      <class name="parallel.VisiCheckRunner">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:parallel.VisiCheckRunner@7bc1a03d]" name="setUpSuite" is-config="true" duration-ms="5598" started-at="2022-10-20T17:36:28 IST" finished-at="2022-10-20T17:36:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.VisiCheckRunner@7bc1a03d]" name="setUpClass" is-config="true" duration-ms="687" started-at="2022-10-20T17:36:33 IST" finished-at="2022-10-20T17:36:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="config_driver(java.lang.String)[pri:0, instance:parallel.VisiCheckRunner@7bc1a03d]" name="config_driver" is-config="true" duration-ms="4068" started-at="2022-10-20T17:36:34 IST" finished-at="2022-10-20T17:36:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config_driver -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.VisiCheckRunner@7bc1a03d]" name="runScenario" duration-ms="11880" started-at="2022-10-20T17:36:38 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-20T17:36:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login in Rahul Shetty academy Shopping Application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is to test login invalid]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:parallel.VisiCheckRunner@7bc1a03d]" name="tearDownClass" is-config="true" duration-ms="7808" started-at="2022-10-20T17:36:50 IST" finished-at="2022-10-20T17:36:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="Report()[pri:0, instance:parallel.VisiCheckRunner@7bc1a03d]" name="Report" is-config="true" duration-ms="0" started-at="2022-10-20T17:36:58 IST" finished-at="2022-10-20T17:36:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Report -->
+      </class> <!-- parallel.VisiCheckRunner -->
+    </test> <!-- Parallel_Execution_chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
